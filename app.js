@@ -64,4 +64,7 @@ const NOME_COMPLETO = "SEU NOME COMPLETO AQUI";
 app.get("/meunome", (req, res) => {
   res.send(`Meu nome é ${NOME_COMPLETO}`);
 });
- 
+
+app.get("/tico", (req, res) => {
+  res.send("teco");
+});
